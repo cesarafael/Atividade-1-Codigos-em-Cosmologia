@@ -1,1 +1,15 @@
+import numpy
+import scipy
+import socket
+import platform
+import sys
+
+#Atividade 1 - Código em Cosmologia#
+print(socket.gethostname())
+print(platform.system())
+print(sys.executable)
+print(sys.version)
+print(scipy.version.version)
+print(numpy.version.version)
+
 
